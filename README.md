@@ -173,4 +173,4 @@ Building this end-to-end taught me far more than following a tutorial ever could
 ## 👤 Author
 
 **Aman Ansary**
-Associate SDET @ Mechlin Technologies | Backend SDE aspirant
+Backend Engineer | Java, Spring Boot, Kafka | Aspiring SDE
