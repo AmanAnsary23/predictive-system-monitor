@@ -16,36 +16,36 @@ Think of it as a smartwatch for your backend services: constantly checking vital
 
 ```
 ┌────────────────────────┐
-│  Metrics Generator      │   Simulates real system metrics
-│  (Spring Boot)          │   for order/payment/inventory
-│                          │   services every few seconds
-└────────────┬─────────────┘
+│  Metrics Generator     │   Simulates real system metrics
+│  (Spring Boot)         │   for order/payment/inventory
+│                        │   services every few seconds
+└────────────┬───────────┘
              │  produces
              ▼
       ┌─────────────┐
-      │   Apache     │   Running in Docker
-      │   Kafka      │   Topic: system-metrics
+      │   Apache    │   Running in Docker
+      │   Kafka     │   Topic: system-metrics
       └──────┬──────┘
              │  consumes
              ▼
 ┌────────────────────────┐
-│  Metrics Consumer        │   Listens to Kafka topic,
-│  (Spring Boot)           │   runs anomaly detection,
-│                          │   persists data
+│  Metrics Consumer      │   Listens to Kafka topic,
+│  (Spring Boot)         │   runs anomaly detection,
+│                        │   persists data
 └──────┬──────────┬───────┘
        │          │
        ▼          ▼
    ┌───────┐  ┌─────────────┐
-   │ MySQL │  │ Rule-based   │
-   │  DB   │  │ Anomaly      │
-   │       │  │ Detection     │
+   │ MySQL │  │ Rule-based  │
+   │  DB   │  │ Anomaly     │
+   │       │  │ Detection   │
    └───┬───┘  └─────────────┘
        │
        ▼
 ┌────────────────────────┐
-│  React Dashboard         │   REST API polling,
-│  (Vite + Tailwind +      │   live radial gauge chart,
-│   Recharts)               │   status-highlighted table
+│  React Dashboard       │   REST API polling,
+│  (Vite + Tailwind +    │   live radial gauge chart,
+│   Recharts)            │   status-highlighted table
 └────────────────────────┘
 ```
 
