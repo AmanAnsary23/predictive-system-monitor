@@ -100,8 +100,6 @@ Think of it as a smartwatch for your backend services: constantly checking vital
 
 <img width="1901" height="911" alt="Screenshot 2026-08-06 024321" src="https://github.com/user-attachments/assets/cfb73146-58c7-4508-b516-09b7d7ae79a8" />
 
-> *(Place your two screenshots inside a `screenshots/` folder in the repo root, named `dashboard.png` and `table.png`, so these render correctly on GitHub.)*
-
 ---
 
 ## 🚀 Getting Started
