@@ -32,7 +32,7 @@ Think of it as a smartwatch for your backend services: constantly checking vital
 │  Metrics Consumer      │   Listens to Kafka topic,
 │  (Spring Boot)         │   runs anomaly detection,
 │                        │   persists data
-└──────┬──────────┬───────┘
+└──────┬──────────┬──────┘
        │          │
        ▼          ▼
    ┌───────┐  ┌─────────────┐
