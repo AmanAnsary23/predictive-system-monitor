@@ -18,23 +18,23 @@ Think of it as a smartwatch for your backend services: constantly checking vital
 
 ```
 ┌────────────────────────┐
-│  Metrics Generator      │   Simulates real system metrics
-│  (Spring Boot)          │   for order/payment/inventory
-│                          │   services every few seconds
-└────────────┬─────────────┘
+│  Metrics Generator     │   Simulates real system metrics
+│  (Spring Boot)         │   for order/payment/inventory
+│                        │   services every few seconds
+└────────────┬───────────┘
              │  produces
              ▼
       ┌─────────────┐
-      │   Apache     │   Running in Docker
-      │   Kafka      │   Topic: system-metrics
+      │   Apache    │   Running in Docker
+      │   Kafka     │   Topic: system-metrics
       └──────┬──────┘
              │  consumes
              ▼
 ┌────────────────────────┐
-│  Metrics Consumer        │   Listens to Kafka topic,
-│  (Spring Boot)           │   orchestrates detection,
-│                          │   persists data
-└──────┬──────────┬───────┘
+│  Metrics Consumer      │   Listens to Kafka topic,
+│  (Spring Boot)         │   orchestrates detection,
+│                        │   persists data
+└──────┬──────────┬──────┘
        │          │
        ▼          ▼
    ┌───────┐  ┌──────────────────────┐
