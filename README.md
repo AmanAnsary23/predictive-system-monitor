@@ -94,11 +94,14 @@ Think of it as a smartwatch for your backend services: constantly checking vital
 
 **Live Dashboard — Radial Gauge + Metrics Table**
 
-<img width="1897" height="912" alt="Screenshot 2026-08-06 022441" src="https://github.com/user-attachments/assets/1a644139-42de-4fb8-bbcf-41bb0c87e201" />
+<img width="1897" height="912" alt="Screenshot 2026-08-06 022441" src="https://github.com/user-attachments/assets/8c363fa6-2028-4059-90e0-87a801cd2a43" />
 
 **Metrics Table — Anomaly Highlighting**
 
-<img width="1901" height="911" alt="Screenshot 2026-08-06 024321" src="https://github.com/user-attachments/assets/cfb73146-58c7-4508-b516-09b7d7ae79a8" />
+<img width="1901" height="911" alt="Screenshot 2026-08-06 024321" src="https://github.com/user-attachments/assets/45daf525-2754-4a9b-98e5-314e2509ecb1" />
+
+
+> *(Place your two screenshots inside a `screenshots/` folder in the repo root, named `dashboard.png` and `table.png`, so these render correctly on GitHub.)*
 
 ---
 
@@ -170,4 +173,4 @@ Building this end-to-end taught me far more than following a tutorial ever could
 ## 👤 Author
 
 **Aman Ansary**
-Associate SDET @ Mechlin Technologies | Backend SDE aspirant
+Backend Engineer | Java, Spring Boot, Kafka | Aspiring SDE
