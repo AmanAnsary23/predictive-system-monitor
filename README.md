@@ -125,8 +125,6 @@ Rule-based thresholds (`CPU > 85%`, `DB connections > 90`) catch the obvious cas
 
 <img width="1901" height="911" alt="Screenshot 2026-08-06 024321" src="https://github.com/user-attachments/assets/4c42e8a7-e92d-4bc4-a717-eaa211cbc942" />
 
-> *(Place your two screenshots inside a `screenshots/` folder in the repo root, named `dashboard.png` and `table.png`, so these render correctly on GitHub.)*
-
 ---
 
 ## 🚀 Getting Started
